@@ -1,0 +1,81 @@
+.card {
+  /* width: 420px; */
+  width: 100%;
+  height: 580px;
+  background-color: var(--dark-2);
+  border-radius: 5px;
+  position: relative;
+  z-index: 100;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.cover-img {
+  height: 46%;
+  width: 100%;
+  background-color: black;
+  /* background: url("https://t4.ftcdn.net/jpg/05/51/97/35/360_F_551973570_VXTDIzhU4GFXslKedPVQFBUfKYbIF3OM.jpg") */
+  background: url("https://wallpapercave.com/wp/wp8626219.jpg")
+    no-repeat center;
+  background-size: cover;
+  filter: brightness(180%);
+  clip-path: polygon(0 0, 100% 0, 100% 78%, 50% 100%, 0 78%);
+}
+.profile-img {
+  position: absolute;
+  top: 30%;
+  left: 36%;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: black;
+  background: url("../../../images/profile2.jpg") no-repeat center top;
+  background-size: cover;
+  outline: 2px solid rgb(236, 177, 177);
+  /* outline: 2px solid rgb(33, 33, 33); */
+  box-shadow: -6px -4px rgb(224, 250, 112);
+}
+
+.intro {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+  align-items: center;
+  top: 55%;
+}
+/* .name {
+  color: white;
+  font-weight: 500;
+} */
+
+.card-footer {
+  position: absolute;
+  bottom: 4%;
+  width: 100%;
+}
+
+.btn {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-top: 1px solid rgba(160, 159, 159, 0.926);
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  padding: 1em 0;
+}
+
+.btn:hover {
+  color: var(--text-1) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.689) !important;
+}
+
+
+@media (max-width:1020px){
+  .card {
+    height: 640px;
+  }
+  
+}

@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* :root {
+  --dark-1: #282c34;
+  --dark-2: #515151;
+  --dark-3: #515151b7;
+  --text-1: rgb(249, 188, 75);
+    --light:#f5e7abaf;
+
+} */
+
+:root {
+  /* --dark-1: #fdfdfd;
+  --dark-2: #140808;
+  --dark-3: #000000;
+  --text-1: rgb(249, 188, 75);
+  --light:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,97,75,1) 16%, rgba(10,93,69,1) 35%, rgba(0,212,255,1) 100%); */
+  --dark-1: #131313;
+  --dark-2: #333333;
+  --dark-3: #434343;
+  --text-1: rgb(245, 164, 15);
+  --light:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,97,75,1) 16%, rgba(10,93,69,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+.App {
+  min-height: 100vh;
+  background-color:var(--dark-1);
+  position: relative;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+
