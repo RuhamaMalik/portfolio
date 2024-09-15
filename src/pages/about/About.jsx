@@ -6,7 +6,7 @@ import React from 'react'
 const About = ({ isVisible}) => {
   return (
     <  >
-      <ContentInOut isVisible={isVisible} >
+      <ContentInOut isVisible={isVisible} id="about" >
         About Content
       </ContentInOut>
       

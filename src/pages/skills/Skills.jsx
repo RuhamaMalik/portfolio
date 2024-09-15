@@ -4,7 +4,7 @@ import ContentInOut from '../../components/animations/content-in-out/ContentInOu
 const Skills = ({isVisible}) => {
   return (
     <>
-       <ContentInOut isVisible={isVisible}>
+       <ContentInOut isVisible={isVisible} id="skills">
        Skills Content
       </ContentInOut>
     </>

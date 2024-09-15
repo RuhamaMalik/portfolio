@@ -13,6 +13,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:var(--dark-1);
+
 }
 
 /* :root {
@@ -25,11 +27,6 @@ body {
 } */
 
 :root {
-  /* --dark-1: #fdfdfd;
-  --dark-2: #140808;
-  --dark-3: #000000;
-  --text-1: rgb(249, 188, 75);
-  --light:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,97,75,1) 16%, rgba(10,93,69,1) 35%, rgba(0,212,255,1) 100%); */
   --dark-1: #131313;
   --dark-2: #333333;
   --dark-3: #434343;
@@ -39,12 +36,13 @@ body {
 
 
 .App {
-  min-height: 100vh;
-  background-color:var(--dark-1);
-  position: relative;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
+  /* min-height: 100vh; */
+  /* height: max-content; */
+  /* background-color:var(--dark-1);
+  position: relative; */
+  
+
+ 
 }
 
 

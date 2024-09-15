@@ -3,9 +3,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/layout/Layout";
 
 function App() {
+
   return (
     <div className="App ">
-      <BackAnimation />
+      <BackAnimation  />
 
       <BrowserRouter>
         <Routes>

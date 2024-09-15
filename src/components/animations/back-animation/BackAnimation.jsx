@@ -1,25 +1,22 @@
+
 import './app.css';
 
 const BackAnimation = () => {
+
     return (
-        <>
-            {/* <section className="sticky"> */}
-                <div className="bubbles">
-                    <div className="bubble"></div>
-                    <div className="bubble"></div>
-                    <div className="bubble"></div>
-                    <div className="bubble"></div>
-                    <div className="bubble"></div>
-                    <div className="bubble"></div>
-                    <div className="bubble"></div>
-                    <div className="bubble"></div>
-                    <div className="bubble"></div>
-                    <div className="bubble"></div>
+        <div className="bubbles" >
+            <div className="bubble"></div>
+            <div className="bubble"></div>
+            <div className="bubble"></div>
+            <div className="bubble"></div>
+            <div className="bubble"></div>
+            <div className="bubble"></div>
+            <div className="bubble"></div>
+            <div className="bubble"></div>
+            <div className="bubble"></div>
+            <div className="bubble"></div>
+        </div>
+    );
+};
 
-                </div>
-            {/* </section> */}
-        </>
-    )
-}
-
-export default BackAnimation
+export default BackAnimation;

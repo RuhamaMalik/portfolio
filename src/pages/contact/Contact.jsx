@@ -4,7 +4,7 @@ import ContentInOut from '../../components/animations/content-in-out/ContentInOu
 const Contact = ({ isVisible }) => {
   return (
     <>
-       <ContentInOut isVisible={isVisible}>
+       <ContentInOut isVisible={isVisible} id="contact">
        Contact Content
       </ContentInOut>
     </>
