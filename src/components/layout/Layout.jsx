@@ -67,12 +67,12 @@ const Layout = () => {
 
             <div className={`layout grid p-[30px] min-h-full justify-center items-center mx-auto max-w-[1600px] grid-cols-[80px_40%_54%]`}>
                 <div className="left">
-                    <div className={`link ${showTabs ? 'show' : ''} rounded`}>
-                        <NavLink className={`link ml-1 lg:ml-0 font-bold ${currentTab === "0" ? 'activeLink' : ""}`} to="/?tab=0" onClick={() => changeTab("0")}>ABOUT</NavLink>
-                        <NavLink className={`link ml-1 lg:ml-0 font-bold ${currentTab === "1" ? 'activeLink' : ""}`} to="/?tab=1" onClick={() => changeTab("1")}>RESUME</NavLink>
-                        <NavLink className={`link ml-1 lg:ml-0 font-bold ${currentTab === "2" ? 'activeLink' : ""}`} to="/?tab=2" onClick={() => changeTab("2")}>WORKS</NavLink>
-                        <NavLink className={`link ml-1 lg:ml-0 font-bold ${currentTab === "3" ? 'activeLink' : ""}`} to="/?tab=3" onClick={() => changeTab("3")}>SKILLS</NavLink>
-                        <NavLink className={`link ml-1 lg:ml-0 font-bold ${currentTab === "4" ? 'activeLink' : ""}`} to="/?tab=4" onClick={() => changeTab("4")}>CONTACT</NavLink>
+                    <div className={`link font-semibold ${showTabs ? 'show' : ''} rounded`}>
+                        <NavLink className={`link ml-1 lg:ml-0  ${currentTab === "0" ? 'activeLink' : ""}`} to="/?tab=0" onClick={() => changeTab("0")}>ABOUT</NavLink>
+                        <NavLink className={`link ml-1 lg:ml-0  ${currentTab === "1" ? 'activeLink' : ""}`} to="/?tab=1" onClick={() => changeTab("1")}>RESUME</NavLink>
+                        <NavLink className={`link ml-1 lg:ml-0  ${currentTab === "2" ? 'activeLink' : ""}`} to="/?tab=2" onClick={() => changeTab("2")}>WORKS</NavLink>
+                        <NavLink className={`link ml-1 lg:ml-0  ${currentTab === "3" ? 'activeLink' : ""}`} to="/?tab=3" onClick={() => changeTab("3")}>SKILLS</NavLink>
+                        <NavLink className={`link ml-1 lg:ml-0  ${currentTab === "4" ? 'activeLink' : ""}`} to="/?tab=4" onClick={() => changeTab("4")}>CONTACT</NavLink>
                     </div>
 
                 </div>

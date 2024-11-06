@@ -20,7 +20,7 @@ const ContentInOut = ({ children, isVisible , id }) => {
   }, [isVisible]);
 
   return (
-    <div id={id} className={`animate__animated ${windowWidth > 1120 ? `${animationClass} h-full` : 'h-[300px] mt-4'} text-center bg-[var(--dark-3)]  text-white p-5`}>
+    <div id={id} className={`animate__animated ${windowWidth > 1120 ? `${animationClass} h-full` : 'min-h-[300px] mt-4'} text-center bg-[var(--dark-3)] text-white p-5`}>
       
       {children}
     </div>
