@@ -7,7 +7,7 @@ import cv from '../../../images/cv.pdf';
 import { useState } from 'react';
 import './app.css';
 
-const ProfileIntroCard = () => {
+const ProfileIntroCard = ({changeTab}) => {
     const [size, setSize] = useState('24px');
     return (
         <div className="card">
@@ -29,13 +29,13 @@ const ProfileIntroCard = () => {
             <div className="card-footer">
                 <Flex>
 
-
+ 
                     <a href={cv} download style={{ width: '50%' }}>
                         <Button className='btn' >
                             Download Cv <DownloadOutlined  style={{ fontSize: '18px'}} />
                         </Button>
                     </a>
-                    <a style={{ width: '50%' }}> <Button className='btn'>Contact me <ArrowRightOutlined  style={{ fontSize: '18px'}}/></Button></a>
+                    <a style={{ width: '50%' }}> <Button onClick={()=>changeTab("4")} className='btn'>Contact me <ArrowRightOutlined  style={{ fontSize: '18px'}}/></Button></a>
                 </Flex>
             </div>
         </div>

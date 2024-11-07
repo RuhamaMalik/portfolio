@@ -80,7 +80,7 @@ const Layout = () => {
                 </div>
 
                 <div className="center">
-                    <ProfileIntroCard />
+                    <ProfileIntroCard  changeTab= {changeTab} />
                 </div>
 
                 <div className="right">
