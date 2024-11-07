@@ -31,7 +31,7 @@ const Skills = ({ isVisible }) => {
                 <div className="flex flex-col items-start gap-2" key={i}>
                   <div className="font-semibold">{data?.skill}</div>
                   <div className="bar relative w-[250px] h-[6px] bg-gray-200 rounded-full">
-                    <div className={`absolute top-0 left-0 h-full bg-[var(--text-1)] w-[${data?.level}%] rounded-full`}></div>
+                    <div  style={{ width: `${data?.level}%` }} className={`absolute top-0 left-0 h-full bg-[var(--text-1)]  rounded-full`} ></div>
                   </div>
                 </div>
               ))

@@ -7,6 +7,7 @@ import Contact from '../../pages/contact/Contact';
 import Resume from '../../pages/resume/Resume';
 import Works from '../../pages/works/Works';
 import Skills from '../../pages/skills/Skills';
+import MouseCursor from '../cursor/Cursor';
 
 const Layout = () => {
     const [searchParams, setSearchParams] = useSearchParams();
@@ -64,6 +65,7 @@ const Layout = () => {
 
     return (
         <>
+      <MouseCursor />
 
             <div className={`layout grid p-[30px] min-h-full justify-center items-center mx-auto max-w-[1600px] grid-cols-[80px_40%_54%]`}>
                 <div className="left">
