@@ -39,7 +39,13 @@ body {
   --light:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,97,75,1) 16%, rgba(10,93,69,1) 35%, rgba(0,212,255,1) 100%);
 }
 
+.edu{
+  box-shadow: rgba(8, 8, 19, 0.1) 0px 4px 16px, rgba(159, 159, 160, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.582) 0px 16px 56px;
+}
 
+.experience{
+  border-left: 1px solid rgb(124, 123, 123);
+}
 
 /* Hide the default scrollbar */
 ::-webkit-scrollbar {
