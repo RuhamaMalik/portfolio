@@ -7,7 +7,7 @@ const resume = {
       id: 1,
       title: " Matric (Science)",
       institute: "Govt. Girls Secondary School 5/E & 11/E UP",
-      duration: "2016 - 2018",
+      duration: "2014 - 2016",
       certificate: "",
 
     },
@@ -15,7 +15,7 @@ const resume = {
       id: 2,
       title: "Intermediate (Pre-Engineering)",
       institute: "Govt. Degree Girls College, Bufferzone",
-      duration: "2022 - 2023",
+      duration: "2018 - 2020",
       certificate: "",
 
     },
@@ -23,7 +23,7 @@ const resume = {
       id: 3,
       title: "Fehm-ul-Quran (Diploma)",
       institute: "Quran Institute Campus 2",
-      duration: "2018 - 2020",
+      duration: "2016 - 2018",
       certificate: "",
 
     },
