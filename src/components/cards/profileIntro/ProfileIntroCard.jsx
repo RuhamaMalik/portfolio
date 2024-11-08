@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faFacebook, faXTwitter, faEnvelope } from '@fortawesome/free-brands-svg-icons';
 import { Flex, Button } from 'antd';
 import { DownloadOutlined , ArrowRightOutlined} from '@ant-design/icons';
-import cv from '../../../images/cv.pdf';
+import cv from '../../../images/Cv.pdf';
 import { useState } from 'react';
 import './app.css';
 
