@@ -4,7 +4,8 @@ const Text = () => {
         'Front End Developer',
         'Backend Developer',
         'Full Stack Developer',
-        'Trainer'
+        'Trainer',
+        'Freelancer'
         
     ]);
     const [part, setPart] = useState('');

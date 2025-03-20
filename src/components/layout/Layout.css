@@ -62,7 +62,8 @@
   min-height: 100%;
   width: 100%;
 }
-@media (max-width: 1120px) {
+/* @media (max-width: 1120px) { */
+@media (max-width: 1287px) {
   .layout {
     padding: 20px 50px;
     grid-template-columns: 85%;

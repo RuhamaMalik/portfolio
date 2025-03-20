@@ -19,9 +19,20 @@ import IMG18 from '../../src/images/portfolio18.png'
 import IMG19 from '../../src/images/portfolio19.png'
 import IMG20 from '../../src/images/portfolio20.png'
 import IMG21 from '../../src/images/portfolio21.png'
+import IMG22 from '../../src/images/portfolio22.png'
 
 
 const projects = [
+  {
+    id: 22,
+    image: IMG22,
+    name:"HoopSquad",
+    category:"Full Stack",
+    status:"Completed",
+    tech:["Next Js", "Tailwind CSS", "SQL", "Stripe"],
+    github: '',
+    demo: 'https://basket-ball-website.vercel.app/'
+  },
     {
       id: 20,
       image: IMG20,

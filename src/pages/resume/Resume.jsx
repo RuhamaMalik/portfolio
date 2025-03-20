@@ -5,6 +5,7 @@ const Resume = ({ isVisible }) => {
   return (
     <>
       <ContentInOut isVisible={isVisible} id="resume">
+        {/* <div className="  min-h-[400px] xl:h-[480px] my-4 text-xl w-full p-4 overflow-y-auto"> */}
         <div className="  min-h-[400px] xl:h-[480px] my-4 text-xl w-full p-4 overflow-y-auto">
 
           <h1 className=" xl:text-left text-center py-4   text-3xl font-semibold  my-4 " >
@@ -17,7 +18,7 @@ const Resume = ({ isVisible }) => {
             {/* Education */}
             <div className=" flex flex-col lg:gap-4 py-8 column">
 
-              <h2 className="text-xl font-semibold mb-4 pl-4 lg:text-start uppercase tracking-wide">Education <i class="fa-solid fa-graduation-cap"></i></h2>
+              <h2 className="text-xl font-semibold mb-4 pl-4 lg:text-start uppercase tracking-wide">Education <i className="fa-solid fa-graduation-cap"></i></h2>
 
               {
                 resume.education.map((edu, i) => (
@@ -30,7 +31,7 @@ const Resume = ({ isVisible }) => {
                     <h3 className="text-base  tracking-wide font-semibold mb-2">{edu.title}</h3>
                     <p className="text-sm text-[var(--text-2)] ">{edu.institute}</p>
                   {edu.certificate &&   <a href={edu.certificate} target="_blank" className=' flex hover:gap-1 items-center cursor-pointer hover:text-[var(--text-1)] py-4 text-base mt-2 '>
-                      Certificate <i class="fa-solid fa-arrow-right ml-1"></i>
+                      Certificate <i className="fa-solid fa-arrow-right ml-1"></i>
                     </a>
                     }
                   </div>
@@ -43,13 +44,13 @@ const Resume = ({ isVisible }) => {
 
             <div className=" flex flex-col  py-8 column   ">
 
-              <h2 className="text-xl font-semibold mb-4 pl-4 lg:text-start uppercase tracking-wide">Experience <i class="fa-solid fa-briefcase"></i></h2>
+              <h2 className="text-xl font-semibold mb-4 pl-4 lg:text-start uppercase tracking-wide">Experience <i className="fa-solid fa-briefcase"></i></h2>
 
 
 
               {
                 resume.experience.map((edu, i) => (
-                  <div className=' edu py-8 px-4 min-h-[200px] text-start experience relative'>
+                  <div key={i} className=' edu py-8 px-4 min-h-[200px] text-start experience relative'>
                     <i className="fa-solid fa-circle absolute -top-2 text-[var(--text-1)] text-sm -left-2"></i>
                     <p className='border border-[var(--text-1)] py-[0.5px]  top-0 my-4 w-[120px] text-center text-[var(--text-1)] text-sm '>{edu.duration}</p>
                     <h3 className="text-lg tracking-wide font-semibold mb-2">{edu.title}</h3>

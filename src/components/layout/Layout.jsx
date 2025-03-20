@@ -67,7 +67,8 @@ const Layout = () => {
         <>
       <MouseCursor />
 
-            <div className={`layout grid p-[30px] min-h-full justify-center items-center mx-auto max-w-[1600px] grid-cols-[80px_40%_54%]`}>
+            {/* <div className={`layout grid p-[30px] min-h-full justify-center items-center mx-auto max-w-[1600px] grid-cols-[80px_40%_54%]`}> */}
+            <div className={`layout grid p-[30px] min-h-full justify-center items-center h-[100vh]   mx-auto  max-w-[1600px] grid-cols-[80px_40%_54%]`}>
                 <div className="left ">
                     <div className={`link tracking-wide font-semibold ${showTabs ? 'show' : ''} rounded`}>
                         <NavLink className={`link ml-1 lg:ml-0  ${currentTab === "0" ? 'activeLink' : ""}`} to="/?tab=0" onClick={() => changeTab("0")}>ABOUT</NavLink>
